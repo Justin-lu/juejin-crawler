@@ -1,0 +1,18 @@
+{
+  "name": "juejin-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf storage/ && node src/main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "crawlee": "^3.11.1",
+    "puppeteer": "^22.15.0"
+  }
+}
